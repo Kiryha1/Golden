@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Golden</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,100 +18,106 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navigation">
-        <a class="header-logo" href="./index.html">Golden</a>
-        <ul class="nav-list">
-          <li class="nav-list-item">
-            <a class="nav-list-link" href="#">Home</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link" href="#">Services</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link" href="#">About</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="navigation">
+          <a class="header-logo" href="./index.html">Golden</a>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">Services</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">About</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main">
-      <section class="services">
-        <h1 class="services-title">Services</h1>
-        <ul class="services-list">
-          <li class="services-list-item">
-            <h3 class="services-name">E-Commerce</h3>
-            <p class="services-text">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-          <li class="services-list-item">
-            <h3 class="services-name">Responsive Web</h3>
-            <p class="services-text">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-          <li class="services-list-item">
-            <h3 class="services-name">Web Security</h3>
-            <p class="services-text">
-              Proin iaculis purus consequat sem cure digni ssim. Donec
-              porttitora entum suscipit aenean rhoncus posuere odio in
-              tincidunt.
-            </p>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="services">
+          <h1 class="services-title">Services</h1>
+          <ul class="services-list">
+            <li class="services-list-item">
+              <h3 class="services-name">E-Commerce</h3>
+              <p class="services-text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="services-list-item">
+              <h3 class="services-name">Responsive Web</h3>
+              <p class="services-text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+            <li class="services-list-item">
+              <h3 class="services-name">Web Security</h3>
+              <p class="services-text">
+                Proin iaculis purus consequat sem cure digni ssim. Donec
+                porttitora entum suscipit aenean rhoncus posuere odio in
+                tincidunt.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <footer class="footer">
-      <h2 class="footer-title">Contact us</h2>
-      <form class="footer-form" action="#" method="POST">
-        <input
-          class="form-input"
-          type="text"
-          id="first_name"
-          name="first_name"
-          placeholder="your Name *"
-          required
-        /><br /><br />
+      <div class="container">
+        <h2 class="footer-title">Contact us</h2>
+        <form class="footer-form" action="#" method="POST">
+          <input
+            class="form-input"
+            type="text"
+            id="first_name"
+            name="first_name"
+            placeholder="your Name *"
+            required
+          /><br /><br />
 
-        <input
-          class="form-input"
-          type="email"
-          id="email"
-          name="email"
-          placeholder="your e-mail *"
-          required
-        /><br /><br />
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your e-mail *"
+            required
+          /><br /><br />
 
-        <input
-          class="form-input"
-          type="sub"
-          id="subject"
-          name="subject"
-          placeholder="subject"
-          required
-        /><br /><br />
+          <input
+            class="form-input"
+            type="sub"
+            id="subject"
+            name="subject"
+            placeholder="subject"
+            required
+          /><br /><br />
 
-        <textarea
-          class="form-textarea"
-          id="comment"
-          name="comment"
-          rows="4"
-          cols="50"
-          placeholder="Your message *"
-        ></textarea
-        ><br /><br />
+          <textarea
+            class="form-textarea"
+            id="comment"
+            name="comment"
+            rows="4"
+            cols="50"
+            placeholder="Your message *"
+          ></textarea
+          ><br /><br />
 
-        <button class="footer-button" type="submit">Send Message</button>
-      </form>
+          <button class="footer-button" type="submit">Send Message</button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>

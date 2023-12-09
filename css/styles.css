@@ -19,17 +19,34 @@ a {
 ul {
   list-style-type: none;
 }
+ul, p, h1, h3 {
+  padding: 0 ;
+}
+.container {
+  width: 972px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 5px solid red;
+}
+.main .container {
+  padding-bottom: 119px;
+  outline: 5px dotted orange;
+}
+.footer .container {
+  padding: 92px 15px 115px;
+  outline: 5px dashed blue;
+}
 .header-logo {
   text-align: center;
   font-family: "Bilbo Swash Caps", cursive;
   font-size: 36px;
-  line-height: 1.14%;
+  line-height: 1.14;
   letter-spacing: 1.3px;
 }
 .nav-list-link {
   text-align: center;
   font-size: 14px;
-  line-height: 2.92%;
+  line-height: 2.92;
   text-transform: uppercase;
 }
 .services-title {
@@ -37,7 +54,7 @@ ul {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.87%;
+  line-height: 1.87;
   letter-spacing: -1px;
   text-transform: uppercase;
 }
@@ -46,7 +63,7 @@ ul {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  line-height: 4.17%;
+  line-height: 4.17;
   letter-spacing: -0.45px;
 }
 .services-text {
