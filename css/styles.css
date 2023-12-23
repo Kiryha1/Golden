@@ -19,22 +19,20 @@ a {
 ul {
   list-style-type: none;
 }
-ul, p, h1, h3 {
-  padding: 0 ;
+ul,
+p,
+h1,
+h3 {
+  padding: 0;
 }
 .container {
   width: 972px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 5px solid red;
 }
-.main .container {
-  padding-bottom: 119px;
-  outline: 5px dotted orange;
-}
-.footer .container {
-  padding: 92px 15px 115px;
-  outline: 5px dashed blue;
+.header .container {
+  display: flex;
+  justify-content: space-around;
 }
 .header-logo {
   text-align: center;
@@ -43,11 +41,22 @@ ul, p, h1, h3 {
   line-height: 1.14;
   letter-spacing: 1.3px;
 }
+.main .container {
+  padding-bottom: 119px;
+}
+.nav-list {
+  display: flex;
+  gap: 10px;
+}
 .nav-list-link {
   text-align: center;
   font-size: 14px;
   line-height: 2.92;
   text-transform: uppercase;
+}
+.services-list {
+  display: flex;
+  gap: 26px;
 }
 .services-title {
   color: #222;
@@ -75,6 +84,9 @@ ul, p, h1, h3 {
 }
 .footer {
   background-color: #222;
+}
+.footer .container {
+  padding: 92px 15px 115px;
 }
 .footer-title {
   color: #fff;
@@ -115,4 +127,6 @@ ul, p, h1, h3 {
   height: 68px;
   background-color: var(--nav);
   border: none;
+  margin: 0 auto;
+  display: block;
 }
