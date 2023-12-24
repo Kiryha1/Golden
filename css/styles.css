@@ -22,7 +22,9 @@ ul {
 ul,
 p,
 h1,
-h3 {
+h2,
+h3,
+button {
   padding: 0;
 }
 .container {
@@ -56,7 +58,8 @@ h3 {
 }
 .services-list {
   display: flex;
-  gap: 26px;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 .services-title {
   color: #222;
@@ -88,6 +91,16 @@ h3 {
 .footer .container {
   padding: 92px 15px 115px;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 214px;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 29px;
+}
 .footer-title {
   color: #fff;
   text-align: center;
@@ -96,10 +109,12 @@ h3 {
   line-height: normal;
   letter-spacing: -1px;
   text-transform: uppercase;
+  margin-bottom: 116px;
 }
 .form-input {
   width: 455px;
   height: 50px;
+  padding: 13px 21px 22px;
 }
 .form-input,
 .form-textarea {
@@ -114,6 +129,7 @@ h3 {
   width: 458px;
   height: 212px;
   resize: none;
+  padding: 14px 22px;
 }
 .footer-button {
   color: var(--form);
